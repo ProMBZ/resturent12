@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body{
+    background-color: black;
+}
+.text1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: white; /* Client-specified color */
+    background-color: transparent;
+}
+
+.text {
+    font-family: inherit;
+    min-width: 0px;
+    line-height: 24px;
+    font-size: 25px !important;
+    color: white !important;
+    display: inline;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    letter-spacing: inherit;
+}
+
+.text2 {
+    font-size: 28px;
+    line-height: 1.2;
+    color: white; /* Client-specified color */
+    font-weight: 200;
+    font-family: 'Fjalla One', arial, sans-serif;
+    letter-spacing: normal;
+}
+.text5{
+    font-size: 28px;
+    line-height: 1.2;
+    color: black; /* Client-specified color */
+    font-weight: 200;
+    font-family: 'Fjalla One', arial, sans-serif;
+    letter-spacing: normal;
+}
+.text4{
+
+    font-size: 28px;
+    line-height: 1.2;
+    color: rgb(111, 82, 67); /* Client-specified color */
+    font-weight: 700;
+    font-family: 'Fjalla One', arial, sans-serif;
+    letter-spacing: normal;
+
+}
+
+
+.h {
+    font-size: 32px !important;
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.3);;
+}
+.he{
+    color: rgb(48, 48, 48);
+    border-radius: 0px;
+    min-height: 56px;
+    padding-bottom: 8px;
+    padding-right: 32px;    
+    display: inline-flex;
+    border-style: none;
+    font-weight: 700;
+    letter-spacing: 0.124em;
+    padding-left: 32px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow-wrap: break-word;
+    text-shadow: none;
+    position: relative;
+    z-index: 1;
+    font-family: 'Source Sans Pro', arial, sans-serif;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    
+    
+}
+.h{
+    background-color: rgb(111, 87, 62);
+}
+.text7{
+    text-shadow: solid 1px 2px;
+    color: white;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    font-size: 29px;
+}
